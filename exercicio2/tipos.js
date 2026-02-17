@@ -7,14 +7,14 @@ console.log("texto:", typeof texto);
 console.log("numero:", typeof numero);
 console.log("booleano:", typeof booleano);
 
-let stringParaNumero = Number(texto);
-console.log("String para Número:", stringParaNumero, typeof stringParaNumero);
+let stringPraNumero = Number(texto);
+console.log("String para Número:", stringPraNumero, typeof stringPraNumero);
 
-let numeroParaString = String(numero);
-console.log("Número para String:", numeroParaString, typeof numeroParaString);
+let numeroPraString = String(numero);
+console.log("Número para String:", numeroPraString, typeof numeroPraString);
 
-let numeroParaBoolean = Boolean(numero);
-console.log("Número para Boolean:", numeroParaBoolean, typeof numeroParaBoolean);
+let numeroPraBoolean = Boolean(numero);
+console.log("Número para Boolean:", numeroPraBoolean, typeof numeroPraBoolean);
 
 
 //==  -> Compara apenas o valor, fazendo conversão automática de tipo.//
